@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasin Yamer</title>
+    
+    <!--Fav Icon-->
+    
+
+    <!--link To CSS-->
+    <link rel="stylesheet" href="css\style.css">
+    <!--Box İcons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--Scroll Top-->
+    <a href="#home" class="scroll-top">
+        <i class='bx bxs-chevron-up'></i>
+    </a>
+    <!--Header-->
+    <header>
+        <!--Nav-->
+        <div class="nav container">
+            <!--Logo-->
+            <a href="#" class="logo">Yasin Yamer</a>
+            <!--Navbar-->
+            <ul class="navbar">
+                <li><a href="#home"  class=" nav-link">Home</a></li>
+                <li><a href="#about"  class=" nav-link">About</a></li>
+                <li><a href="#services"  class=" nav-link">Services</a></li>
+                <li><a href="#contact"  class=" nav-link">Contact</a></li>
+                <a href="YasinYamer(Web).txt" class="btn" download="">
+                    Download Cv
+                    <i class='bx bx-download'></i>
+                </a>
+            </ul>
+            <!--Menu Icon-->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <!--Home-->
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="img/yasinv2.jpg" alt="">
+            </div>
+            <div class="home-text">
+                <h3>Welcome</h3>
+                <h2>I'm <span class="color">Yasin Yamer</span></h2>
+                <p>
+                    <span class="color"> Web Developer , Web Designer and Backend Developer</span>
+                    
+                    <br>As a Java backend Java Developer, be part of a prestigious organization and <span class="color">Java, JavaScript, Spring, HTML and CSS</span> , I want to further improve my skills on <span class="color">Hibernate and more Java Freamworks</span>
+                    <br> Here's a bit more <span class="color">about me.</span>
+                </p>
+                <!--Social-->
+                <div class="social">
+                    <a href="https://www.instagram.com/coderyasinn0/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.linkedin.com/in/yasinyamer" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/YasinYamer" target="_blank"><i class='bx bxl-github' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About-->
+    <section class="about container" id="about">
+        <!--Heading-->
+        <h2 class="heading">About</h2>
+        <!--About Content-->
+        <div class="about-content">
+            <div class="about-data">
+                <span>About me</span>
+                <h2>Backend Developer, <br> Web Developer & Web Designer</h2>
+                <a href="YasinYamer(Web).txt" class="btn" download="">
+                    Download Cv
+                    <i class='bx bx-download'></i>
+                </a>
+            </div>
+            <div class="about-text">
+                <p>Hello! I am Yasin Yamer. Backend Developer, Web Developer & Web Designer  </p>
+            </div>
+        </div>
+    </section>
+    <!--Services-->
+    <section class="services container" id="services">
+        <!--Heading-->
+        <h2 class="heading">Services</h2>
+        <!--Services Content-->
+        <div class="services-content">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h2>Backend Developer</h2>
+                <p>Pleas Content Me</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h2>Web Developer</h2>
+                <p>Pleas Content Me</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint' ></i>
+                <h2>Web Design</h2>
+                <p>Pleas Content Me</p>
+            </div>
+        </div>
+    </section>
+    <!--add projects as soon as possible -->
+    <!--add rewiev as soon as possible-->
+    <!--Contant Form-->
+    <section class="contact container" id="contact">
+        <!--Heading -->
+        <h2 class="heading">Contact</h2>
+        <!--Contact Form-->
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" class="name" required >
+            <input type="email" name="" id="" placeholder="Email address..." class="email" required >
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write message here..." class="message" required></textarea>
+            <input type="submit" value="Send" class="send-btn">
+        </form>
+    </section>
+    <!--Footer-->
+    <section class="footer-container" id="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/coderyasinn0/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.linkedin.com/in/yasinyamer" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/YasinYamer" target="_blank"><i class='bx bxl-github' ></i></a>
+        </div>
+        <!--Footer Links-->
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms Of Use</a>
+            <a href="#">Disclaimer</a>
+        </div>
+        <!--Copyright-->
+        <p> &#169; Yasin Yamer </p>
+    </section>
+
+
+    <!--Email JS link-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <!--Sweet Alert JS link-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("service_ee77xc9");
+        })();
+    </script>
+    <!--Link To JS-->
+    <script src="js/main.js"></script>
+</body>
+</html>
